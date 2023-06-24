@@ -1,0 +1,624 @@
+2023-06-22T16:01:49.224Z [info] server started 3000
+2023-06-22T16:03:10.761Z [info] server started 3000
+2023-06-22T16:03:15.565Z [info] Db connection established
+2023-06-22T16:03:48.529Z [info] server started 3000
+2023-06-22T16:04:10.561Z [info] server started 3000
+2023-06-22T16:04:13.816Z [info] Db connection established
+2023-06-22T16:04:14.726Z [error] todo validation failed: start_day: Path `start_day` is required.
+2023-06-22T16:05:48.659Z [info] server started 3000
+2023-06-22T16:05:52.377Z [info] Db connection established
+2023-06-22T16:09:46.087Z [info] server started 3000
+2023-06-22T16:09:53.566Z [info] server started 3000
+2023-06-22T16:10:27.605Z [info] server started 3000
+2023-06-22T16:10:30.161Z [info] Db connection established
+2023-06-22T16:11:12.011Z [info] server started 3000
+2023-06-22T16:11:26.839Z [info] server started 3000
+2023-06-22T16:11:33.653Z [info] server started 3000
+2023-06-22T16:11:46.446Z [info] server started 3000
+2023-06-22T16:11:51.713Z [error] testing
+2023-06-22T16:11:53.427Z [info] Db connection established
+2023-06-22T16:11:56.834Z [error] testing
+2023-06-22T16:12:20.568Z [info] server started 3000
+2023-06-22T16:12:23.883Z [error] testing
+2023-06-22T16:12:32.304Z [info] server started 3000
+2023-06-22T16:12:35.338Z [info] Db connection established
+2023-06-22T16:12:53.741Z [info] server started 3000
+2023-06-22T16:12:56.751Z [info] Db connection established
+2023-06-22T16:13:22.434Z [info] server started 3000
+2023-06-22T16:13:28.004Z [info] server started 3000
+2023-06-22T16:13:30.609Z [info] Db connection established
+2023-06-22T16:13:34.334Z [error] testing
+2023-06-22T16:13:52.271Z [error] testing
+2023-06-22T16:14:03.355Z [info] server started 3000
+2023-06-22T16:14:06.129Z [error] testing
+2023-06-22T16:14:07.666Z [info] Db connection established
+2023-06-22T16:14:40.904Z [error] kdskmkdmac
+2023-06-22T16:15:08.318Z [info] server started 3000
+2023-06-22T16:15:12.015Z [info] Db connection established
+2023-06-22T16:15:35.606Z [info] server started 3000
+2023-06-22T16:15:38.282Z [info] Db connection established
+2023-06-22T16:15:59.247Z [info] server started 3000
+2023-06-22T16:16:04.122Z [info] server started 3000
+2023-06-22T16:16:07.523Z [info] Db connection established
+2023-06-22T16:16:24.136Z [info] server started 3000
+2023-06-22T16:16:27.724Z [info] Db connection established
+2023-06-22T16:16:34.055Z [info] server started 3000
+2023-06-22T16:16:39.381Z [info] server started 3000
+2023-06-22T16:16:42.129Z [info] Db connection established
+2023-06-22T16:16:45.422Z [error] todo validation failed: start_day: Path `start_day` is required.
+2023-06-22T16:17:22.335Z [info] server started 3000
+2023-06-22T16:17:25.000Z [info] Db connection established
+2023-06-22T16:18:00.804Z [info] server started 3000
+2023-06-22T16:18:05.622Z [info] server started 3000
+2023-06-22T16:18:08.321Z [info] Db connection established
+2023-06-22T16:18:17.504Z [info] server started 3000
+2023-06-22T16:18:20.228Z [info] Db connection established
+2023-06-22T16:19:08.432Z [error] todo validation failed: start_day: Path `start_day` is required.
+2023-06-22T16:19:41.490Z [info] server started 3000
+2023-06-22T16:19:45.219Z [info] Db connection established
+2023-06-22T16:20:00.151Z [info] server started 3000
+2023-06-22T16:20:02.729Z [info] Db connection established
+2023-06-22T16:27:18.531Z [info] server started 3000
+2023-06-22T16:27:31.890Z [info] server started 3000
+2023-06-22T16:27:35.443Z [info] Db connection established
+2023-06-22T16:30:01.116Z [info] server started 3000
+2023-06-22T16:30:04.195Z [error] todo validation failed: start_day: Path `start_day` is required.
+2023-06-22T16:30:05.079Z [info] Db connection established
+2023-06-22T16:30:34.581Z [info] server started 3000
+2023-06-22T16:30:36.664Z [error] todo validation failed: start_day: Path `start_day` is required.
+2023-06-22T16:30:37.295Z [info] Db connection established
+{"level":"info","message":"server started 3000"}
+{"_message":"todo validation failed","errors":{"start_day":{"kind":"required","message":"Path `start_day` is required.","name":"ValidatorError","path":"start_day","properties":{"message":"Path `start_day` is required.","path":"start_day","type":"required"}}},"level":"error","message":"todo validation failed: start_day: Path `start_day` is required.","name":"ValidationError"}
+{"level":"info","message":"Db connection established"}
+{"level":"info","message":"server started 3000"}
+{"level":"info","message":"server started 3000"}
+{"level":"info","message":"Db connection established"}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T16:35:48.989Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T16:35:54.218Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-22T16:35:57.214Z'
+}
+{
+  errors: {
+    start_day: ValidatorError: Path `start_day` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `start_day` is required.',
+        type: 'required',
+        path: 'start_day',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'start_day',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'todo validation failed',
+  level: 'error',
+  timestamp: '2023-06-22T16:36:01.016Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T16:51:04.115Z'
+}
+{
+  errors: {
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
+        at new Promise (<anonymous>)
+        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
+        at Generator.next (<anonymous>)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    start_day: ValidatorError: Path `start_day` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
+        at new Promise (<anonymous>)
+        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
+        at Generator.next (<anonymous>)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `start_day` is required.',
+        type: 'required',
+        path: 'start_day',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'start_day',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    end_day: ValidatorError: Path `end_day` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
+        at new Promise (<anonymous>)
+        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
+        at Generator.next (<anonymous>)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `end_day` is required.',
+        type: 'required',
+        path: 'end_day',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'end_day',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Validation failed',
+  level: 'error',
+  timestamp: '2023-06-22T16:51:09.733Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-22T16:51:10.919Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T16:51:39.378Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-22T16:51:42.062Z'
+}
+{
+  errors: {
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
+        at new Promise (<anonymous>)
+        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
+        at Generator.next (<anonymous>)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    start_day: ValidatorError: Path `start_day` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
+        at new Promise (<anonymous>)
+        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
+        at Generator.next (<anonymous>)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `start_day` is required.',
+        type: 'required',
+        path: 'start_day',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'start_day',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    end_day: ValidatorError: Path `end_day` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
+        at new Promise (<anonymous>)
+        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
+        at Generator.next (<anonymous>)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `end_day` is required.',
+        type: 'required',
+        path: 'end_day',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'end_day',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Validation failed',
+  level: 'error',
+  timestamp: '2023-06-22T16:51:43.934Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T17:21:54.607Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T17:22:13.826Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-22T17:22:16.308Z'
+}
+{
+  errors: {
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
+        at new Promise (<anonymous>)
+        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
+        at Generator.next (<anonymous>)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    start_day: ValidatorError: Path `start_day` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
+        at new Promise (<anonymous>)
+        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
+        at Generator.next (<anonymous>)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `start_day` is required.',
+        type: 'required',
+        path: 'start_day',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'start_day',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    end_day: ValidatorError: Path `end_day` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
+        at new Promise (<anonymous>)
+        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
+        at Generator.next (<anonymous>)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `end_day` is required.',
+        type: 'required',
+        path: 'end_day',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'end_day',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Validation failed',
+  level: 'error',
+  timestamp: '2023-06-22T17:22:23.716Z'
+}
+{
+  errors: {
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
+        at new Promise (<anonymous>)
+        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
+        at Generator.next (<anonymous>)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `name` is required.',
+        type: 'required',
+        path: 'name',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'name',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    start_day: ValidatorError: Path `start_day` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
+        at new Promise (<anonymous>)
+        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
+        at Generator.next (<anonymous>)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `start_day` is required.',
+        type: 'required',
+        path: 'start_day',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'start_day',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    end_day: ValidatorError: Path `end_day` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
+        at new Promise (<anonymous>)
+        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
+        at Generator.next (<anonymous>)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `end_day` is required.',
+        type: 'required',
+        path: 'end_day',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'end_day',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Validation failed',
+  level: 'error',
+  timestamp: '2023-06-22T17:23:04.716Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T17:23:38.075Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T17:23:47.043Z'
+}
+{ level: 'error', timestamp: '2023-06-22T17:23:49.315Z' }
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-22T17:23:52.024Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T17:24:06.604Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-22T17:24:11.222Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T17:26:45.750Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T17:27:01.280Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-22T17:27:04.181Z'
+}
+{
+  errors: {
+    start_day: ValidatorError: `tomorrow` is not a valid enum value for path `start_day`.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: '`tomorrow` is not a valid enum value for path `start_day`.',
+        type: 'enum',
+        enumValues: [ 'Yesterday', 'Tomorrow', 'Today' ],
+        path: 'start_day',
+        value: 'tomorrow'
+      },
+      kind: 'enum',
+      path: 'start_day',
+      value: 'tomorrow',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    end_day: ValidatorError: `today` is not a valid enum value for path `end_day`.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: '`today` is not a valid enum value for path `end_day`.',
+        type: 'enum',
+        enumValues: [ 'Yesterday', 'Tomorrow', 'Today' ],
+        path: 'end_day',
+        value: 'today'
+      },
+      kind: 'enum',
+      path: 'end_day',
+      value: 'today',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'todo validation failed',
+  level: 'error',
+  timestamp: '2023-06-22T17:27:10.351Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T17:38:30.443Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-22T17:38:33.288Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T17:38:40.321Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T17:39:23.641Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-22T17:39:26.303Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T17:39:33.717Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-22T17:39:36.356Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T17:39:39.332Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T17:40:40.192Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-22T17:40:43.359Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T17:41:30.152Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-22T17:41:34.046Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-22T17:41:52.774Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-22T17:41:57.652Z'
+}
+2023-06-24T14:37:49.347Z [info] server started 4000
+2023-06-24T14:38:19.355Z [error] Error connecting to database MongooseServerSelectionError: connect ECONNREFUSED ::1:27017
