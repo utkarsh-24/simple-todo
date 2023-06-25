@@ -1,109 +1,404 @@
-2023-06-22T16:01:49.224Z [info] server started 3000
-2023-06-22T16:03:10.761Z [info] server started 3000
-2023-06-22T16:03:15.565Z [info] Db connection established
-2023-06-22T16:03:48.529Z [info] server started 3000
-2023-06-22T16:04:10.561Z [info] server started 3000
-2023-06-22T16:04:13.816Z [info] Db connection established
-2023-06-22T16:04:14.726Z [error] todo validation failed: start_day: Path `start_day` is required.
-2023-06-22T16:05:48.659Z [info] server started 3000
-2023-06-22T16:05:52.377Z [info] Db connection established
-2023-06-22T16:09:46.087Z [info] server started 3000
-2023-06-22T16:09:53.566Z [info] server started 3000
-2023-06-22T16:10:27.605Z [info] server started 3000
-2023-06-22T16:10:30.161Z [info] Db connection established
-2023-06-22T16:11:12.011Z [info] server started 3000
-2023-06-22T16:11:26.839Z [info] server started 3000
-2023-06-22T16:11:33.653Z [info] server started 3000
-2023-06-22T16:11:46.446Z [info] server started 3000
-2023-06-22T16:11:51.713Z [error] testing
-2023-06-22T16:11:53.427Z [info] Db connection established
-2023-06-22T16:11:56.834Z [error] testing
-2023-06-22T16:12:20.568Z [info] server started 3000
-2023-06-22T16:12:23.883Z [error] testing
-2023-06-22T16:12:32.304Z [info] server started 3000
-2023-06-22T16:12:35.338Z [info] Db connection established
-2023-06-22T16:12:53.741Z [info] server started 3000
-2023-06-22T16:12:56.751Z [info] Db connection established
-2023-06-22T16:13:22.434Z [info] server started 3000
-2023-06-22T16:13:28.004Z [info] server started 3000
-2023-06-22T16:13:30.609Z [info] Db connection established
-2023-06-22T16:13:34.334Z [error] testing
-2023-06-22T16:13:52.271Z [error] testing
-2023-06-22T16:14:03.355Z [info] server started 3000
-2023-06-22T16:14:06.129Z [error] testing
-2023-06-22T16:14:07.666Z [info] Db connection established
-2023-06-22T16:14:40.904Z [error] kdskmkdmac
-2023-06-22T16:15:08.318Z [info] server started 3000
-2023-06-22T16:15:12.015Z [info] Db connection established
-2023-06-22T16:15:35.606Z [info] server started 3000
-2023-06-22T16:15:38.282Z [info] Db connection established
-2023-06-22T16:15:59.247Z [info] server started 3000
-2023-06-22T16:16:04.122Z [info] server started 3000
-2023-06-22T16:16:07.523Z [info] Db connection established
-2023-06-22T16:16:24.136Z [info] server started 3000
-2023-06-22T16:16:27.724Z [info] Db connection established
-2023-06-22T16:16:34.055Z [info] server started 3000
-2023-06-22T16:16:39.381Z [info] server started 3000
-2023-06-22T16:16:42.129Z [info] Db connection established
-2023-06-22T16:16:45.422Z [error] todo validation failed: start_day: Path `start_day` is required.
-2023-06-22T16:17:22.335Z [info] server started 3000
-2023-06-22T16:17:25.000Z [info] Db connection established
-2023-06-22T16:18:00.804Z [info] server started 3000
-2023-06-22T16:18:05.622Z [info] server started 3000
-2023-06-22T16:18:08.321Z [info] Db connection established
-2023-06-22T16:18:17.504Z [info] server started 3000
-2023-06-22T16:18:20.228Z [info] Db connection established
-2023-06-22T16:19:08.432Z [error] todo validation failed: start_day: Path `start_day` is required.
-2023-06-22T16:19:41.490Z [info] server started 3000
-2023-06-22T16:19:45.219Z [info] Db connection established
-2023-06-22T16:20:00.151Z [info] server started 3000
-2023-06-22T16:20:02.729Z [info] Db connection established
-2023-06-22T16:27:18.531Z [info] server started 3000
-2023-06-22T16:27:31.890Z [info] server started 3000
-2023-06-22T16:27:35.443Z [info] Db connection established
-2023-06-22T16:30:01.116Z [info] server started 3000
-2023-06-22T16:30:04.195Z [error] todo validation failed: start_day: Path `start_day` is required.
-2023-06-22T16:30:05.079Z [info] Db connection established
-2023-06-22T16:30:34.581Z [info] server started 3000
-2023-06-22T16:30:36.664Z [error] todo validation failed: start_day: Path `start_day` is required.
-2023-06-22T16:30:37.295Z [info] Db connection established
-{"level":"info","message":"server started 3000"}
-{"_message":"todo validation failed","errors":{"start_day":{"kind":"required","message":"Path `start_day` is required.","name":"ValidatorError","path":"start_day","properties":{"message":"Path `start_day` is required.","path":"start_day","type":"required"}}},"level":"error","message":"todo validation failed: start_day: Path `start_day` is required.","name":"ValidationError"}
-{"level":"info","message":"Db connection established"}
-{"level":"info","message":"server started 3000"}
-{"level":"info","message":"server started 3000"}
-{"level":"info","message":"Db connection established"}
 {
   message: 'server started 3000',
   level: 'info',
-  timestamp: '2023-06-22T16:35:48.989Z'
+  timestamp: '2023-06-25T04:16:01.934Z'
 }
 {
   message: 'server started 3000',
   level: 'info',
-  timestamp: '2023-06-22T16:35:54.218Z'
+  timestamp: '2023-06-25T04:16:10.182Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:16:18.021Z'
 }
 {
   message: 'Db connection established',
   level: 'info',
-  timestamp: '2023-06-22T16:35:57.214Z'
+  timestamp: '2023-06-25T04:16:21.662Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:16:57.175Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:16:59.732Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:17:09.445Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:17:13.040Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:17:27.968Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:17:30.661Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:17:53.746Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:18:12.199Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:18:17.662Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:18:31.658Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:18:48.912Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:19:44.993Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:19:47.923Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:20:04.669Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:20:07.633Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:22:45.214Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:22:49.585Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:24:38.483Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:24:49.469Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:24:52.032Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:26:02.305Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:26:05.146Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:31:24.008Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:31:26.916Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:31:51.367Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:32:04.683Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:32:07.227Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:32:28.885Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:32:32.242Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:32:43.732Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:33:14.899Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:33:24.302Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:33:26.992Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:33:54.455Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:34:09.251Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:34:11.977Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:34:33.614Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:34:36.251Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:35:18.335Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:35:21.075Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:48:56.552Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:49:02.225Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:51:43.264Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:51:46.808Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:52:16.463Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:52:18.973Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:52:55.690Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:52:58.597Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:53:06.039Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:53:08.777Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:53:33.334Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:53:35.953Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:53:44.375Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:53:46.861Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:54:09.415Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:54:13.640Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:54:34.817Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:54:37.540Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:55:08.176Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:55:10.812Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:55:20.900Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:55:23.443Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:56:06.299Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:56:08.903Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T04:56:28.348Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T04:56:31.460Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:09:32.200Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:09:36.284Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:09:44.397Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:09:46.965Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:10:54.922Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:10:59.907Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:11:19.096Z'
 }
 {
   errors: {
-    start_day: ValidatorError: Path `start_day` is required.
+    created_date: ValidatorError: Path `created_date` is required.
         at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at SchemaDate.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
         at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\document.js:2932:18
         at processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: {
         validator: [Function (anonymous)],
-        message: 'Path `start_day` is required.',
+        message: 'Path `created_date` is required.',
         type: 'required',
-        path: 'start_day',
+        path: 'created_date',
         value: undefined
       },
       kind: 'required',
-      path: 'start_day',
+      path: 'created_date',
       value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
@@ -111,514 +406,1771 @@
   },
   _message: 'todo validation failed',
   level: 'error',
-  timestamp: '2023-06-22T16:36:01.016Z'
+  timestamp: '2023-06-25T05:11:21.233Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:11:21.809Z'
 }
 {
   message: 'server started 3000',
   level: 'info',
-  timestamp: '2023-06-22T16:51:04.115Z'
+  timestamp: '2023-06-25T05:12:30.853Z'
 }
 {
-  errors: {
-    name: ValidatorError: Path `name` is required.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
-        at new Promise (<anonymous>)
-        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
-        at Generator.next (<anonymous>)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
-        at new Promise (<anonymous>)
-        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: 'Path `name` is required.',
-        type: 'required',
-        path: 'name',
-        value: undefined
-      },
-      kind: 'required',
-      path: 'name',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    start_day: ValidatorError: Path `start_day` is required.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
-        at new Promise (<anonymous>)
-        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
-        at Generator.next (<anonymous>)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
-        at new Promise (<anonymous>)
-        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: 'Path `start_day` is required.',
-        type: 'required',
-        path: 'start_day',
-        value: undefined
-      },
-      kind: 'required',
-      path: 'start_day',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    end_day: ValidatorError: Path `end_day` is required.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
-        at new Promise (<anonymous>)
-        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
-        at Generator.next (<anonymous>)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
-        at new Promise (<anonymous>)
-        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: 'Path `end_day` is required.',
-        type: 'required',
-        path: 'end_day',
-        value: undefined
-      },
-      kind: 'required',
-      path: 'end_day',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    }
-  },
-  _message: 'Validation failed',
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:12:34.577Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:12:57.038Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:13:02.241Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:13:18.968Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:13:32.269Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:13:49.993Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:14:00.760Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:14:18.467Z'
+}
+{
+  message: 'Error connecting to database ',
   level: 'error',
-  timestamp: '2023-06-22T16:51:09.733Z'
-}
-{
-  message: 'Db connection established',
-  level: 'info',
-  timestamp: '2023-06-22T16:51:10.919Z'
+  timestamp: '2023-06-25T05:14:18.477Z'
 }
 {
   message: 'server started 3000',
   level: 'info',
-  timestamp: '2023-06-22T16:51:39.378Z'
+  timestamp: '2023-06-25T05:14:32.220Z'
 }
 {
-  message: 'Db connection established',
-  level: 'info',
-  timestamp: '2023-06-22T16:51:42.062Z'
-}
-{
-  errors: {
-    name: ValidatorError: Path `name` is required.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
-        at new Promise (<anonymous>)
-        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
-        at Generator.next (<anonymous>)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
-        at new Promise (<anonymous>)
-        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: 'Path `name` is required.',
-        type: 'required',
-        path: 'name',
-        value: undefined
-      },
-      kind: 'required',
-      path: 'name',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    start_day: ValidatorError: Path `start_day` is required.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
-        at new Promise (<anonymous>)
-        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
-        at Generator.next (<anonymous>)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
-        at new Promise (<anonymous>)
-        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: 'Path `start_day` is required.',
-        type: 'required',
-        path: 'start_day',
-        value: undefined
-      },
-      kind: 'required',
-      path: 'start_day',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    end_day: ValidatorError: Path `end_day` is required.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
-        at new Promise (<anonymous>)
-        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
-        at Generator.next (<anonymous>)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
-        at new Promise (<anonymous>)
-        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: 'Path `end_day` is required.',
-        type: 'required',
-        path: 'end_day',
-        value: undefined
-      },
-      kind: 'required',
-      path: 'end_day',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    }
-  },
-  _message: 'Validation failed',
+  message: 'Error connecting to database ',
   level: 'error',
-  timestamp: '2023-06-22T16:51:43.934Z'
+  timestamp: '2023-06-25T05:14:32.233Z'
 }
 {
   message: 'server started 3000',
   level: 'info',
-  timestamp: '2023-06-22T17:21:54.607Z'
+  timestamp: '2023-06-25T05:14:57.444Z'
 }
 {
   message: 'server started 3000',
   level: 'info',
-  timestamp: '2023-06-22T17:22:13.826Z'
+  timestamp: '2023-06-25T05:15:03.570Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:15:10.655Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:15:40.434Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:16:20.636Z'
 }
 {
   message: 'Db connection established',
   level: 'info',
-  timestamp: '2023-06-22T17:22:16.308Z'
+  timestamp: '2023-06-25T05:16:24.448Z'
 }
 {
-  errors: {
-    name: ValidatorError: Path `name` is required.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
-        at new Promise (<anonymous>)
-        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
-        at Generator.next (<anonymous>)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
-        at new Promise (<anonymous>)
-        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: 'Path `name` is required.',
-        type: 'required',
-        path: 'name',
-        value: undefined
-      },
-      kind: 'required',
-      path: 'name',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    start_day: ValidatorError: Path `start_day` is required.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
-        at new Promise (<anonymous>)
-        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
-        at Generator.next (<anonymous>)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
-        at new Promise (<anonymous>)
-        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: 'Path `start_day` is required.',
-        type: 'required',
-        path: 'start_day',
-        value: undefined
-      },
-      kind: 'required',
-      path: 'start_day',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    end_day: ValidatorError: Path `end_day` is required.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
-        at new Promise (<anonymous>)
-        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
-        at Generator.next (<anonymous>)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
-        at new Promise (<anonymous>)
-        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: 'Path `end_day` is required.',
-        type: 'required',
-        path: 'end_day',
-        value: undefined
-      },
-      kind: 'required',
-      path: 'end_day',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    }
-  },
-  _message: 'Validation failed',
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:16:32.353Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:16:35.064Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:17:02.095Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:17:04.599Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:17:57.221Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:18:00.899Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:18:31.502Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:18:34.308Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:19:02.552Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:19:06.827Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:19:22.399Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:19:28.751Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:19:31.373Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:19:37.078Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:19:39.674Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:19:46.539Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:19:49.507Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:20:34.888Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:20:38.521Z'
+}
+{
+  message: 'page not found',
   level: 'error',
-  timestamp: '2023-06-22T17:22:23.716Z'
+  timestamp: '2023-06-25T05:20:38.595Z'
 }
 {
-  errors: {
-    name: ValidatorError: Path `name` is required.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
-        at new Promise (<anonymous>)
-        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
-        at Generator.next (<anonymous>)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
-        at new Promise (<anonymous>)
-        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: 'Path `name` is required.',
-        type: 'required',
-        path: 'name',
-        value: undefined
-      },
-      kind: 'required',
-      path: 'name',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    start_day: ValidatorError: Path `start_day` is required.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
-        at new Promise (<anonymous>)
-        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
-        at Generator.next (<anonymous>)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
-        at new Promise (<anonymous>)
-        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: 'Path `start_day` is required.',
-        type: 'required',
-        path: 'start_day',
-        value: undefined
-      },
-      kind: 'required',
-      path: 'start_day',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    end_day: ValidatorError: Path `end_day` is required.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
-        at new Promise (<anonymous>)
-        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
-        at Generator.next (<anonymous>)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
-        at new Promise (<anonymous>)
-        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: 'Path `end_day` is required.',
-        type: 'required',
-        path: 'end_day',
-        value: undefined
-      },
-      kind: 'required',
-      path: 'end_day',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    }
-  },
-  _message: 'Validation failed',
+  message: 'Error: page not found\n' +
+    '    at D:\\utkarsh projects\\Learning Development (MERN stack)\\Todo\\src\\controllers\\todo.ts:8:10\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (D:\\utkarsh projects\\Learning Development (MERN stack)\\Todo\\src\\controllers\\todo.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
   level: 'error',
-  timestamp: '2023-06-22T17:23:04.716Z'
+  timestamp: '2023-06-25T05:20:38.602Z'
 }
 {
   message: 'server started 3000',
   level: 'info',
-  timestamp: '2023-06-22T17:23:38.075Z'
-}
-{
-  message: 'server started 3000',
-  level: 'info',
-  timestamp: '2023-06-22T17:23:47.043Z'
-}
-{ level: 'error', timestamp: '2023-06-22T17:23:49.315Z' }
-{
-  message: 'Db connection established',
-  level: 'info',
-  timestamp: '2023-06-22T17:23:52.024Z'
-}
-{
-  message: 'server started 3000',
-  level: 'info',
-  timestamp: '2023-06-22T17:24:06.604Z'
+  timestamp: '2023-06-25T05:21:23.964Z'
 }
 {
   message: 'Db connection established',
   level: 'info',
-  timestamp: '2023-06-22T17:24:11.222Z'
+  timestamp: '2023-06-25T05:21:26.510Z'
 }
 {
   message: 'server started 3000',
   level: 'info',
-  timestamp: '2023-06-22T17:26:45.750Z'
+  timestamp: '2023-06-25T05:21:39.415Z'
 }
 {
   message: 'server started 3000',
   level: 'info',
-  timestamp: '2023-06-22T17:27:01.280Z'
+  timestamp: '2023-06-25T05:21:45.309Z'
 }
 {
   message: 'Db connection established',
   level: 'info',
-  timestamp: '2023-06-22T17:27:04.181Z'
+  timestamp: '2023-06-25T05:21:47.856Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:23:14.977Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:23:17.824Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:24:17.495Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:24:21.677Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:25:50.473Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:25:56.820Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:26:06.454Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:26:09.440Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:27:05.809Z'
+}
+{
+  message: '"name" length must be at least 10 characters long',
+  level: 'error',
+  timestamp: '2023-06-25T05:27:06.112Z'
+}
+{
+  message: 'Error: "name" length must be at least 10 characters long\n' +
+    '    at D:\\utkarsh projects\\Learning Development (MERN stack)\\Todo\\src\\controllers\\todo.ts:10:14\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (D:\\utkarsh projects\\Learning Development (MERN stack)\\Todo\\src\\controllers\\todo.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  level: 'error',
+  timestamp: '2023-06-25T05:27:06.119Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:27:09.881Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:27:48.549Z'
+}
+{
+  message: '"name" length must be at least 10 characters long',
+  level: 'error',
+  timestamp: '2023-06-25T05:27:50.896Z'
+}
+{
+  message: 'Error: "name" length must be at least 10 characters long\n' +
+    '    at D:\\utkarsh projects\\Learning Development (MERN stack)\\Todo\\src\\controllers\\todo.ts:10:14\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (D:\\utkarsh projects\\Learning Development (MERN stack)\\Todo\\src\\controllers\\todo.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  level: 'error',
+  timestamp: '2023-06-25T05:27:50.910Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:27:51.507Z'
+}
+{
+  message: '"name" length must be at least 10 characters long',
+  level: 'error',
+  timestamp: '2023-06-25T05:29:31.938Z'
+}
+{
+  message: 'Error: "name" length must be at least 10 characters long\n' +
+    '    at D:\\utkarsh projects\\Learning Development (MERN stack)\\Todo\\src\\controllers\\todo.ts:10:14\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (D:\\utkarsh projects\\Learning Development (MERN stack)\\Todo\\src\\controllers\\todo.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  level: 'error',
+  timestamp: '2023-06-25T05:29:31.940Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:30:38.500Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:30:43.657Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:33:35.496Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:33:38.903Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:34:25.444Z'
+}
+{
+  message: 'todo validation failed: created_date: Path `created_date` is required.',
+  level: 'error',
+  timestamp: '2023-06-25T05:34:25.799Z'
+}
+{
+  message: 'ValidationError: todo validation failed: created_date: Path `created_date` is required.\n' +
+    '    at model.Document.invalidate (D:\\utkarsh projects\\Learning Development (MERN stack)\\Todo\\node_modules\\mongoose\\lib\\document.js:3147:32)\n' +
+    '    at D:\\utkarsh projects\\Learning Development (MERN stack)\\Todo\\node_modules\\mongoose\\lib\\document.js:2940:17\n' +
+    '    at D:\\utkarsh projects\\Learning Development (MERN stack)\\Todo\\node_modules\\mongoose\\lib\\schematype.js:1352:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  level: 'error',
+  timestamp: '2023-06-25T05:34:25.804Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:34:28.228Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:35:44.504Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:35:48.856Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:36:42.511Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:36:45.331Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:38:42.753Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:38:46.036Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:39:09.961Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:39:12.597Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:39:32.626Z'
 }
 {
   errors: {
-    start_day: ValidatorError: `tomorrow` is not a valid enum value for path `start_day`.
+    created_date: ValidatorError: Path `created_date` is required.
         at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at SchemaDate.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
         at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\document.js:2932:18
         at processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: {
         validator: [Function (anonymous)],
-        message: '`tomorrow` is not a valid enum value for path `start_day`.',
-        type: 'enum',
-        enumValues: [ 'Yesterday', 'Tomorrow', 'Today' ],
-        path: 'start_day',
-        value: 'tomorrow'
+        message: 'Path `created_date` is required.',
+        type: 'required',
+        path: 'created_date',
+        value: undefined
       },
-      kind: 'enum',
-      path: 'start_day',
-      value: 'tomorrow',
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    end_day: ValidatorError: `today` is not a valid enum value for path `end_day`.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\document.js:2932:18
-        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: '`today` is not a valid enum value for path `end_day`.',
-        type: 'enum',
-        enumValues: [ 'Yesterday', 'Tomorrow', 'Today' ],
-        path: 'end_day',
-        value: 'today'
-      },
-      kind: 'enum',
-      path: 'end_day',
-      value: 'today',
+      kind: 'required',
+      path: 'created_date',
+      value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     }
   },
   _message: 'todo validation failed',
   level: 'error',
-  timestamp: '2023-06-22T17:27:10.351Z'
-}
-{
-  message: 'server started 3000',
-  level: 'info',
-  timestamp: '2023-06-22T17:38:30.443Z'
+  timestamp: '2023-06-25T05:39:34.468Z'
 }
 {
   message: 'Db connection established',
   level: 'info',
-  timestamp: '2023-06-22T17:38:33.288Z'
+  timestamp: '2023-06-25T05:39:36.126Z'
 }
 {
   message: 'server started 3000',
   level: 'info',
-  timestamp: '2023-06-22T17:38:40.321Z'
+  timestamp: '2023-06-25T05:44:14.802Z'
 }
 {
   message: 'server started 3000',
   level: 'info',
-  timestamp: '2023-06-22T17:39:23.641Z'
+  timestamp: '2023-06-25T05:44:23.407Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:44:38.861Z'
+}
+{
+  errors: {
+    created_date: ValidatorError: Path `created_date` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaDate.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `created_date` is required.',
+        type: 'required',
+        path: 'created_date',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'created_date',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'todo validation failed',
+  level: 'error',
+  timestamp: '2023-06-25T05:44:39.764Z'
+}
+{
+  errors: {
+    created_date: ValidatorError: Path `created_date` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaDate.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `created_date` is required.',
+        type: 'required',
+        path: 'created_date',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'created_date',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'todo validation failed',
+  level: 'error',
+  timestamp: '2023-06-25T05:44:41.123Z'
 }
 {
   message: 'Db connection established',
   level: 'info',
-  timestamp: '2023-06-22T17:39:26.303Z'
+  timestamp: '2023-06-25T05:44:41.557Z'
 }
 {
   message: 'server started 3000',
   level: 'info',
-  timestamp: '2023-06-22T17:39:33.717Z'
+  timestamp: '2023-06-25T05:47:42.450Z'
 }
 {
   message: 'Db connection established',
   level: 'info',
-  timestamp: '2023-06-22T17:39:36.356Z'
+  timestamp: '2023-06-25T05:47:45.717Z'
 }
 {
   message: 'server started 3000',
   level: 'info',
-  timestamp: '2023-06-22T17:39:39.332Z'
+  timestamp: '2023-06-25T05:47:58.773Z'
 }
 {
-  message: 'server started 3000',
-  level: 'info',
-  timestamp: '2023-06-22T17:40:40.192Z'
+  statusCode: 404,
+  errorMessage: 'todo validation failed: created_date: Path `created_date` is required.',
+  level: 'error',
+  timestamp: '2023-06-25T05:47:59.235Z'
 }
 {
   message: 'Db connection established',
   level: 'info',
-  timestamp: '2023-06-22T17:40:43.359Z'
+  timestamp: '2023-06-25T05:48:01.270Z'
 }
 {
   message: 'server started 3000',
   level: 'info',
-  timestamp: '2023-06-22T17:41:30.152Z'
+  timestamp: '2023-06-25T05:48:17.980Z'
 }
 {
   message: 'Db connection established',
   level: 'info',
-  timestamp: '2023-06-22T17:41:34.046Z'
+  timestamp: '2023-06-25T05:48:21.797Z'
+}
+{
+  statusCode: 400,
+  errorMessage: 'todo validation failed: created_date: Path `created_date` is required.',
+  level: 'error',
+  timestamp: '2023-06-25T05:48:41.622Z'
 }
 {
   message: 'server started 3000',
   level: 'info',
-  timestamp: '2023-06-22T17:41:52.774Z'
+  timestamp: '2023-06-25T05:49:08.545Z'
 }
 {
   message: 'Db connection established',
   level: 'info',
-  timestamp: '2023-06-22T17:41:57.652Z'
+  timestamp: '2023-06-25T05:49:12.941Z'
 }
-2023-06-24T14:37:49.347Z [info] server started 4000
-2023-06-24T14:38:19.355Z [error] Error connecting to database MongooseServerSelectionError: connect ECONNREFUSED ::1:27017
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:49:35.411Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:49:38.443Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:51:55.326Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:51:59.607Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:53:37.450Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:53:40.688Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:54:18.751Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:54:21.442Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:55:22.764Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:55:32.672Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:55:35.878Z'
+}
+{
+  statusCode: 409,
+  errorMessage: 'user already exist',
+  level: 'error',
+  timestamp: '2023-06-25T05:55:37.758Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:56:38.267Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:56:41.486Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:56:50.561Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:56:53.671Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:57:02.774Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:57:05.291Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:57:40.222Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:57:43.075Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:58:05.694Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:58:08.971Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:58:41.206Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:59:03.072Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:59:05.917Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T05:59:23.200Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T05:59:25.936Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:01:39.291Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:02:07.861Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:02:10.896Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:03:08.703Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:03:14.135Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:03:17.445Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:03:33.185Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:03:51.529Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:03:54.106Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:05:14.385Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:05:18.463Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:05:27.271Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:05:30.574Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:06:47.974Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:06:57.228Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:07:32.977Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:07:35.598Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:09:07.960Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:09:12.512Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:10:41.419Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:10:48.686Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:10:51.548Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:12:07.855Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:12:11.926Z'
+}
+{
+  statusCode: undefined,
+  errorMessage: 'Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  level: 'error',
+  timestamp: '2023-06-25T06:12:15.083Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:15:06.727Z'
+}
+{
+  statusCode: undefined,
+  errorMessage: 'Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'NativeConnection'\n" +
+    "    |     property 'base' -> object with constructor 'Mongoose'\n" +
+    "    |     property 'connections' -> object with constructor 'Array'\n" +
+    '    --- index 0 closes the circle',
+  level: 'error',
+  timestamp: '2023-06-25T06:15:07.009Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:15:10.828Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:15:59.735Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:16:02.697Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:16:29.460Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:16:32.526Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:17:54.491Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:17:58.243Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:18:24.752Z'
+}
+{
+  statusCode: undefined,
+  errorMessage: 'Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'NativeConnection'\n" +
+    "    |     property 'base' -> object with constructor 'Mongoose'\n" +
+    "    |     property 'connections' -> object with constructor 'Array'\n" +
+    '    --- index 0 closes the circle',
+  level: 'error',
+  timestamp: '2023-06-25T06:18:25.630Z'
+}
+{
+  statusCode: undefined,
+  errorMessage: 'Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'NativeConnection'\n" +
+    "    |     property 'base' -> object with constructor 'Mongoose'\n" +
+    "    |     property 'connections' -> object with constructor 'Array'\n" +
+    '    --- index 0 closes the circle',
+  level: 'error',
+  timestamp: '2023-06-25T06:18:27.106Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:18:27.279Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:18:38.201Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:18:41.131Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:20:07.782Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:20:15.196Z'
+}
+{
+  statusCode: undefined,
+  errorMessage: 'Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'NativeConnection'\n" +
+    "    |     property 'base' -> object with constructor 'Mongoose'\n" +
+    "    |     property 'connections' -> object with constructor 'Array'\n" +
+    '    --- index 0 closes the circle',
+  level: 'error',
+  timestamp: '2023-06-25T06:20:16.139Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:20:18.155Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:21:24.267Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:21:28.576Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:22:12.872Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:22:21.672Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:22:34.214Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:22:37.068Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:23:02.218Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:23:08.208Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:23:14.584Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:23:34.312Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:23:37.764Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:23:46.572Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:23:52.816Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:23:55.395Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:26:40.017Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:26:44.644Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:29:17.840Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:29:21.584Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:29:42.275Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:29:45.205Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:33:06.755Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:33:10.161Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T06:33:26.064Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T06:33:31.190Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:32:55.888Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:38:03.738Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:38:23.381Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:38:26.088Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:39:27.476Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:39:30.266Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:40:11.529Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:40:15.118Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:41:32.108Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:41:34.748Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:41:42.318Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:41:45.106Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:42:12.123Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:42:14.857Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:42:43.143Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:43:23.269Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:43:25.964Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:43:40.482Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:43:43.175Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:44:20.686Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:44:23.263Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:46:46.247Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:46:50.273Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:47:02.457Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:47:05.506Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:47:20.204Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:47:22.964Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:48:04.977Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:48:08.431Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:49:30.345Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:49:53.755Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:49:56.430Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:50:10.938Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:50:13.405Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:50:40.070Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:50:43.979Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:50:54.925Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:50:57.637Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:51:18.847Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:51:21.443Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:52:09.058Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:52:12.270Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:52:50.890Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:53:25.869Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:53:42.964Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:53:45.808Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:54:44.553Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:54:52.097Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:54:54.848Z'
+}
+{
+  statusCode: 400,
+  errorMessage: '"_id" is not allowed',
+  level: 'error',
+  timestamp: '2023-06-25T07:55:12.225Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:56:18.384Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:57:30.419Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:57:33.619Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:58:17.590Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:58:20.612Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:58:29.529Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:58:32.203Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:58:41.438Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:58:44.468Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:58:52.411Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:58:54.884Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:59:02.679Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T07:59:07.179Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:59:37.260Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T07:59:48.682Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:00:09.528Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:00:12.326Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:00:28.637Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:00:31.378Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:01:33.134Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:01:36.489Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:03:38.085Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:03:41.278Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:03:57.501Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:04:00.320Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:05:07.783Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:05:27.284Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:05:30.183Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:05:51.718Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:05:54.573Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:06:28.276Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:06:31.968Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'Todo not found',
+  level: 'error',
+  timestamp: '2023-06-25T08:06:56.954Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:07:38.345Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:07:42.355Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'Todo not found',
+  level: 'error',
+  timestamp: '2023-06-25T08:08:01.775Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:11:50.969Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:11:55.533Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'Todo not found',
+  level: 'error',
+  timestamp: '2023-06-25T08:12:00.734Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:12:17.980Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:12:22.048Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'Todo not found',
+  level: 'error',
+  timestamp: '2023-06-25T08:12:23.786Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:13:50.719Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:14:13.174Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:14:15.844Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:14:40.831Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:14:43.531Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:15:06.280Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:15:08.994Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:15:15.728Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:15:18.554Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:15:45.510Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:15:48.168Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:16:11.497Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:16:15.127Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:16:50.236Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:16:52.828Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:17:15.529Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:17:19.512Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:17:30.019Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:17:33.516Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:17:55.470Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:17:58.437Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'Todo not found',
+  level: 'error',
+  timestamp: '2023-06-25T08:17:59.210Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'Todo not found',
+  level: 'error',
+  timestamp: '2023-06-25T08:18:37.011Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:19:22.820Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:19:25.601Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:56:22.713Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T08:56:25.651Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T08:56:49.286Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T09:05:19.680Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T09:05:23.219Z'
+}
+{
+  statusCode: undefined,
+  errorMessage: 'Cast to ObjectId failed for value "6497ca5de7684e3937a9d4c43" (type string) at path "_id" for model "todo"',
+  level: 'error',
+  timestamp: '2023-06-25T09:06:08.024Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T09:08:51.706Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T09:08:55.015Z'
+}
+{
+  statusCode: undefined,
+  errorMessage: 'Cast to ObjectId failed for value "6497ca5de7684e3937a9d4c43" (type string) at path "_id" for model "todo"',
+  level: 'error',
+  timestamp: '2023-06-25T09:09:39.224Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T09:10:26.003Z'
+}
+{
+  statusCode: 500,
+  errorMessage: 'Cast to ObjectId failed for value "6497ca5de7684e3937a9d4c43" (type string) at path "_id" for model "todo"',
+  level: 'error',
+  timestamp: '2023-06-25T09:10:27.903Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T09:10:29.451Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'Todo not found',
+  level: 'error',
+  timestamp: '2023-06-25T09:10:44.230Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'Todo not found',
+  level: 'error',
+  timestamp: '2023-06-25T09:10:51.028Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T09:11:19.102Z'
+}
+{
+  statusCode: 500,
+  errorMessage: 'Cast to ObjectId failed for value "6497ca5de6684e3937a9d4c33" (type string) at path "_id" for model "todo"',
+  level: 'error',
+  timestamp: '2023-06-25T09:11:21.088Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T09:11:22.559Z'
+}
+{
+  message: 'server started 3000',
+  level: 'info',
+  timestamp: '2023-06-25T09:11:36.018Z'
+}
+{
+  message: 'Db connection established',
+  level: 'info',
+  timestamp: '2023-06-25T09:11:40.432Z'
+}

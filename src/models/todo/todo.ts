@@ -1,21 +1,28 @@
 import mongoose, { Schema } from "mongoose";
 import { ITodo } from "./interface";
-import { TodoDay } from "./enum";
+import { TodoStatus } from "./enum";
 
 const TodoSchema = new Schema({
     name: {
-        "type": "string",
+        type: String,
         required: true
     },
-    start_day: {
-        type: "string",
+    status: {
+        type: String,
         required: true,
-        enum:TodoDay
+        enum: TodoStatus
     },
-    end_day: {
-        type: "string",
+    start_date: {
+        type: Date,
         required: true,
-        enum:TodoDay
+    },
+    end_date: {
+        type: Date,
+        required: true,
+    },
+    created_date: {
+        type: Date,
+        default: Date.now
     }
 })
 

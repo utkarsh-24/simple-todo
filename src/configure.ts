@@ -14,7 +14,9 @@ const setupEnv = (): void => {
 }
 
 setupEnv();
+
 const PORT = process.env.PORT ?? "8080"
+
 
 
 export { PORT, NODE_ENV }

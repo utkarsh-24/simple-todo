@@ -6,6 +6,7 @@ import { todoRouter } from './routes';
 import helmet from "helmet"
 import rateLimit from "express-rate-limit"
 import "express-async-errors"
+import ErrorHandler from './middlewares/errorhandler';
 
 const app = express()
 
@@ -26,19 +27,24 @@ const setupDB = () => {
             logger.info("Db connection established")
         })
         .catch((error) => {
-            logger.error("Error connecting to database " + error);
+            logger.error("Error connecting to database ");
+            logger.error(error)
             process.exit(0);
         })
 }
 setupDB();
+
 const limiter = rateLimit({
     windowMs: 15 * 60 * 1000, // 15 minutes
     max: 100, // limit each IP to 100 requests per windowMs
     message: 'Too many requests'
 })
+
 app.use(express.json())
 app.use(limiter)
 app.use(helmet())
+
+
 app.use("/todo", todoRouter)
 
 
@@ -46,19 +52,12 @@ app.use((req, res) => {
     return res.status(404).send({ message: "Page not found" });
 })
 
-app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
+app.use((err: ErrorHandler, req: Request, res: Response, next: NextFunction) => {
     logger.error(err)
-    console.log(err)
-    return res.send({ "message": "something went wrong" })
+    console.log(err.statusCode)
+    return res.status(err.statusCode).send({success:false,message:err.errorMessage});
 })
 
-// app.use("exceptionsHandler", () => {
-//     console.log("exceptionsHandler")
-// })
-
-// app.use("promiseHandler", () => {
-//     console.log("promiseHandler")
-// })
 
 app.listen(PORT, () => {
     console.log("server started " + PORT);

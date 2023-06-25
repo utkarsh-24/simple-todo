@@ -4,11 +4,9 @@ import todo from "../controllers/todo"
 
 const router = Router()
 
-router.post("/", todo.get)
-
-router.get("/", (req, res) => {
-
-    res.send("still working")
-})
+router.post("/", todo.create)
+router.get("/", todo.get)
+router.put("/:id", todo.update)
+router.delete("/:id", todo.remove)
 
 export default router;

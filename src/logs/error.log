@@ -1,126 +1,221 @@
 {
   errors: {
-    name: ValidatorError: Path `name` is required.
+    created_date: ValidatorError: Path `created_date` is required.
         at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
-        at new Promise (<anonymous>)
-        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
-        at Generator.next (<anonymous>)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
-        at new Promise (<anonymous>)
-        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: 'Path `name` is required.',
-        type: 'required',
-        path: 'name',
-        value: undefined
-      },
-      kind: 'required',
-      path: 'name',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    start_day: ValidatorError: Path `start_day` is required.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
-        at new Promise (<anonymous>)
-        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
-        at Generator.next (<anonymous>)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
-        at new Promise (<anonymous>)
-        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: 'Path `start_day` is required.',
-        type: 'required',
-        path: 'start_day',
-        value: undefined
-      },
-      kind: 'required',
-      path: 'start_day',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    end_day: ValidatorError: Path `end_day` is required.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4125:18
-        at new Promise (<anonymous>)
-        at Function.validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\model.js:4096:10)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:6:16
-        at Generator.next (<anonymous>)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:8:71
-        at new Promise (<anonymous>)
-        at __awaiter (D:\utkarsh projects\Learning Development (MERN stack)\Todo\src\service\todo\todo.ts:4:12) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: 'Path `end_day` is required.',
-        type: 'required',
-        path: 'end_day',
-        value: undefined
-      },
-      kind: 'required',
-      path: 'end_day',
-      value: undefined,
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    }
-  },
-  _message: 'Validation failed',
-  level: 'error',
-  timestamp: '2023-06-22T17:23:04.716Z'
-}
-{ level: 'error', timestamp: '2023-06-22T17:23:49.315Z' }
-{
-  errors: {
-    start_day: ValidatorError: `tomorrow` is not a valid enum value for path `start_day`.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at SchemaDate.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
         at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\document.js:2932:18
         at processTicksAndRejections (node:internal/process/task_queues:77:11) {
       properties: {
         validator: [Function (anonymous)],
-        message: '`tomorrow` is not a valid enum value for path `start_day`.',
-        type: 'enum',
-        enumValues: [ 'Yesterday', 'Tomorrow', 'Today' ],
-        path: 'start_day',
-        value: 'tomorrow'
+        message: 'Path `created_date` is required.',
+        type: 'required',
+        path: 'created_date',
+        value: undefined
       },
-      kind: 'enum',
-      path: 'start_day',
-      value: 'tomorrow',
-      reason: undefined,
-      [Symbol(mongoose:validatorError)]: true
-    },
-    end_day: ValidatorError: `today` is not a valid enum value for path `end_day`.
-        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
-        at SchemaString.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
-        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\document.js:2932:18
-        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
-      properties: {
-        validator: [Function (anonymous)],
-        message: '`today` is not a valid enum value for path `end_day`.',
-        type: 'enum',
-        enumValues: [ 'Yesterday', 'Tomorrow', 'Today' ],
-        path: 'end_day',
-        value: 'today'
-      },
-      kind: 'enum',
-      path: 'end_day',
-      value: 'today',
+      kind: 'required',
+      path: 'created_date',
+      value: undefined,
       reason: undefined,
       [Symbol(mongoose:validatorError)]: true
     }
   },
   _message: 'todo validation failed',
   level: 'error',
-  timestamp: '2023-06-22T17:27:10.351Z'
+  timestamp: '2023-06-25T05:39:34.468Z'
 }
-2023-06-24T14:38:19.355Z [error] Error connecting to database MongooseServerSelectionError: connect ECONNREFUSED ::1:27017
+{
+  errors: {
+    created_date: ValidatorError: Path `created_date` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaDate.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `created_date` is required.',
+        type: 'required',
+        path: 'created_date',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'created_date',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'todo validation failed',
+  level: 'error',
+  timestamp: '2023-06-25T05:44:39.764Z'
+}
+{
+  errors: {
+    created_date: ValidatorError: Path `created_date` is required.
+        at validate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaDate.SchemaType.doValidate (D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\schematype.js:1333:7)
+        at D:\utkarsh projects\Learning Development (MERN stack)\Todo\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `created_date` is required.',
+        type: 'required',
+        path: 'created_date',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'created_date',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'todo validation failed',
+  level: 'error',
+  timestamp: '2023-06-25T05:44:41.123Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'todo validation failed: created_date: Path `created_date` is required.',
+  level: 'error',
+  timestamp: '2023-06-25T05:47:59.235Z'
+}
+{
+  statusCode: 400,
+  errorMessage: 'todo validation failed: created_date: Path `created_date` is required.',
+  level: 'error',
+  timestamp: '2023-06-25T05:48:41.622Z'
+}
+{
+  statusCode: 409,
+  errorMessage: 'user already exist',
+  level: 'error',
+  timestamp: '2023-06-25T05:55:37.758Z'
+}
+{
+  statusCode: undefined,
+  errorMessage: 'Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  level: 'error',
+  timestamp: '2023-06-25T06:12:15.083Z'
+}
+{
+  statusCode: undefined,
+  errorMessage: 'Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'NativeConnection'\n" +
+    "    |     property 'base' -> object with constructor 'Mongoose'\n" +
+    "    |     property 'connections' -> object with constructor 'Array'\n" +
+    '    --- index 0 closes the circle',
+  level: 'error',
+  timestamp: '2023-06-25T06:15:07.009Z'
+}
+{
+  statusCode: undefined,
+  errorMessage: 'Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'NativeConnection'\n" +
+    "    |     property 'base' -> object with constructor 'Mongoose'\n" +
+    "    |     property 'connections' -> object with constructor 'Array'\n" +
+    '    --- index 0 closes the circle',
+  level: 'error',
+  timestamp: '2023-06-25T06:18:25.630Z'
+}
+{
+  statusCode: undefined,
+  errorMessage: 'Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'NativeConnection'\n" +
+    "    |     property 'base' -> object with constructor 'Mongoose'\n" +
+    "    |     property 'connections' -> object with constructor 'Array'\n" +
+    '    --- index 0 closes the circle',
+  level: 'error',
+  timestamp: '2023-06-25T06:18:27.106Z'
+}
+{
+  statusCode: undefined,
+  errorMessage: 'Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'NativeConnection'\n" +
+    "    |     property 'base' -> object with constructor 'Mongoose'\n" +
+    "    |     property 'connections' -> object with constructor 'Array'\n" +
+    '    --- index 0 closes the circle',
+  level: 'error',
+  timestamp: '2023-06-25T06:20:16.139Z'
+}
+{
+  statusCode: 400,
+  errorMessage: '"_id" is not allowed',
+  level: 'error',
+  timestamp: '2023-06-25T07:55:12.225Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'Todo not found',
+  level: 'error',
+  timestamp: '2023-06-25T08:06:56.954Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'Todo not found',
+  level: 'error',
+  timestamp: '2023-06-25T08:08:01.775Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'Todo not found',
+  level: 'error',
+  timestamp: '2023-06-25T08:12:00.734Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'Todo not found',
+  level: 'error',
+  timestamp: '2023-06-25T08:12:23.786Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'Todo not found',
+  level: 'error',
+  timestamp: '2023-06-25T08:17:59.210Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'Todo not found',
+  level: 'error',
+  timestamp: '2023-06-25T08:18:37.011Z'
+}
+{
+  statusCode: undefined,
+  errorMessage: 'Cast to ObjectId failed for value "6497ca5de7684e3937a9d4c43" (type string) at path "_id" for model "todo"',
+  level: 'error',
+  timestamp: '2023-06-25T09:06:08.024Z'
+}
+{
+  statusCode: undefined,
+  errorMessage: 'Cast to ObjectId failed for value "6497ca5de7684e3937a9d4c43" (type string) at path "_id" for model "todo"',
+  level: 'error',
+  timestamp: '2023-06-25T09:09:39.224Z'
+}
+{
+  statusCode: 500,
+  errorMessage: 'Cast to ObjectId failed for value "6497ca5de7684e3937a9d4c43" (type string) at path "_id" for model "todo"',
+  level: 'error',
+  timestamp: '2023-06-25T09:10:27.903Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'Todo not found',
+  level: 'error',
+  timestamp: '2023-06-25T09:10:44.230Z'
+}
+{
+  statusCode: 404,
+  errorMessage: 'Todo not found',
+  level: 'error',
+  timestamp: '2023-06-25T09:10:51.028Z'
+}
+{
+  statusCode: 500,
+  errorMessage: 'Cast to ObjectId failed for value "6497ca5de6684e3937a9d4c33" (type string) at path "_id" for model "todo"',
+  level: 'error',
+  timestamp: '2023-06-25T09:11:21.088Z'
+}

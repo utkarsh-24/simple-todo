@@ -1,5 +1,5 @@
 import { ITodo } from "./interface";
-import { TodoDay } from "./enum";
+import { TodoStatus } from "./enum";
 import Todo from "./todo"
 
-export { ITodo, TodoDay, Todo }
+export { ITodo, TodoStatus, Todo }
